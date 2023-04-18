@@ -22,13 +22,19 @@ if(length(remaining.packages)) BiocManager::install(remaining.packages)
 
 # finish with installing Github directories
 
+devtools::install_github('cran/speedglm') 
 devtools::install_github('cole-trapnell-lab/monocle3', ref="develop")
+devtools::install_github('cole-trapnell-lab/garnett', ref="monocle3")
+devtools::install_github('scfurl/m3addon')
 
-devtools::install_github('cole-trapnell-lab/garnett')
+devtools::install_github('cole-trapnell-lab/PLNmodels') # needs R 4.1
 
-devtools::install_github('cole-trapnell-lab/PLNmodels')
-devtools::install_github('cole-trapnell-lab/hooke', ref="develop")
+BiocManager::install("Rgraphviz")
 
+# get PAT authorization token from github to download private repositories
+
+devtools::install_github('cole-trapnell-lab/hooke', ref="develop", 
+                         auth_token = "")
 
 
 
