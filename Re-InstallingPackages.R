@@ -27,7 +27,7 @@ devtools::install_github('cole-trapnell-lab/monocle3', ref="develop")
 devtools::install_github('cole-trapnell-lab/garnett', ref="monocle3")
 devtools::install_github('scfurl/m3addon')
 
-devtools::install_github('cole-trapnell-lab/PLNmodels') # needs R 4.1
+devtools::install_github('cole-trapnell-lab/PLNmodels', ref="torch_gpu") # needs R 4.1
 
 BiocManager::install("Rgraphviz")
 
