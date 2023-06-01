@@ -1,0 +1,15 @@
+#  MacOS Ventura (June 2023)
+#
+#  Install a recent version of R and R studio
+#  Install fortran (https://cran.r-project.org/bin/macosx/tools/)
+#
+#
+#
+#  Install xcode tools using App Store
+#  Install homebrew in terminal (instructions here: https://brew.sh/ )
+#
+#   Within terminal:
+#     brew install gcc
+#     brew link --overwrite open-mpi
+#     brew install geos gdal 
+
