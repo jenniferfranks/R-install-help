@@ -12,4 +12,7 @@
 #     brew install gcc
 #     brew link --overwrite open-mpi
 #     brew install geos gdal 
+#     brew install hdf5
 
+
+# 
