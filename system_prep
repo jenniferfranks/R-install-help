@@ -15,4 +15,12 @@
 #     brew install hdf5
 
 
-# 
+#  Install Anaconda (https://www.anaconda.com/download), follow on-screen directions
+
+#  Create a virtual environment to run scrublet by running the following commands 
+#  in R:
+#     library(reticulate)
+#     conda_create("myenv")
+#     conda_install(envname="myenv", packages = c("numpy","pip","git"))
+#     conda_install(envname="myenv", packages = c("scrublet"), pip=T)
+#     conda_python(envname =  "myenv")
