@@ -25,3 +25,13 @@
 #     conda_install(envname="myenv", packages = c("numpy","pip","git"))
 #     conda_install(envname="myenv", packages = c("scrublet"), pip=T)
 #     conda_python(envname =  "myenv")
+
+
+
+
+# SCRI Instructions (July 2024):
+#
+#  Anaconda is not supported, so use Mamba (Miniforge) instead.
+#    https://github.com/conda-forge/miniforge?tab=readme-ov-file
+
+
