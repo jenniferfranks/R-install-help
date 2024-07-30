@@ -1,0 +1,15 @@
+# On SCRI systems
+# 
+# log into HPC (Sasquatch) with username
+# start tmux session
+# srun into your association
+
+# install mamba (miniforge edition)
+
+# mamba create --n franks_lab gdal geos gcc hdf5 
+
+# mamba install --n franks_lab R
+
+
+# mamba activate franks_lab
+
