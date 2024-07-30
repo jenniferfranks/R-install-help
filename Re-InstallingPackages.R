@@ -5,11 +5,11 @@
 #       Make sure to have xcode and homebrew installed (follow system prep info)
 #
 # -----------------------------------------------------------------------------
-
+install.packages("sf")
 install.packages("rgeos", repos="http://R-Forge.R-project.org", type="source")
 require(rgeos)
-install.packages("rgdal", repos="http://R-Forge.R-project.org", type="source")
-require(rgdal)
+#install.packages("rgdal", repos="http://R-Forge.R-project.org", type="source") # deprecated as of May 2023?
+#require(rgdal)
 
 # list all packages installed on old version of R (MacOS location)
 
