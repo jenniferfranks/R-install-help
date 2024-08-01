@@ -43,7 +43,7 @@ BiocManager::install("Rgraphviz")
 
 
 # finish with installing Github directories
-
+install.packages("devtools")
 devtools::install_github('cran/speedglm') 
 devtools::install_github('cran/Matrix.utils') 
 devtools::install_github('cran/spatstat.core') 
