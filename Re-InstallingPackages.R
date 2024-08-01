@@ -56,9 +56,8 @@ remotes::install_github("guokai8/scGSVA")
 remotes::install_github('satijalab/seurat-wrappers')
 remotes::install_github("RubD/Giotto")
 remotes::install_github("sqjin/CellChat")
-remotes::install_github("bnprks/BPCells")
 
-
+remotes::install_github("bnprks/BPCells/r")
 devtools::install_github('cole-trapnell-lab/monocle3', ref="develop")
 devtools::install_github('cole-trapnell-lab/garnett', ref="monocle3")
 devtools::install_github('scfurl/m3addon')
