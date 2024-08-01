@@ -14,9 +14,18 @@
 # SECOND: 
 #   on command line, run the following code, replacing "franks_lab" with whatever environment name you want
 
+
 mamba create --name franks_lab gdal geos gcc hdf5 
 
-mamba install --name franks_lab R
+mamba install --name franks_lab -c conda-forge r-base=4.4.1
+mamba install --name franks_lab -c conda-forge udunits2
 
 mamba activate franks_lab
+
+
+
+## Other notes :
+#   proj and proj4 seem to have an issue; may need to uninstall and re-install the right one
+#   to see what packages are installed use:
+#      mamba list --name franks_lab
 
