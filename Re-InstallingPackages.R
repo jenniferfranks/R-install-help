@@ -6,11 +6,16 @@
 #       if Mac: Make sure to have xcode and homebrew installed (follow system prep info)
 #
 # -----------------------------------------------------------------------------
-install.packages("sf")
+
 install.packages("rgeos", repos="http://R-Forge.R-project.org", type="source")
 require(rgeos)
+
 #install.packages("rgdal", repos="http://R-Forge.R-project.org", type="source") # deprecated as of May 2023?
 #require(rgdal)
+
+install.packages("remotes", repos="https//cran.us.r-project.org")
+library(remotes)
+install_github("r-spatial/sf")
 
 # list all packages installed on old version of R (MacOS location)
 if(exists("//Library/Frameworks/R.framework/Versions/4.0/Resources/library")){      #Intel 
