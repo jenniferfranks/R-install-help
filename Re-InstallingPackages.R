@@ -2,7 +2,8 @@
 # Jennifer Franks - April 2023
 #
 #       Re-install packages on new version of R
-#       Make sure to have xcode and homebrew installed (follow system prep info)
+#
+#       if Mac: Make sure to have xcode and homebrew installed (follow system prep info)
 #
 # -----------------------------------------------------------------------------
 install.packages("sf")
@@ -12,13 +13,22 @@ require(rgeos)
 #require(rgdal)
 
 # list all packages installed on old version of R (MacOS location)
-
-temp <- list.dirs("//Library/Frameworks/R.framework/Versions/4.0/Resources/library", 
+if(exists("//Library/Frameworks/R.framework/Versions/4.0/Resources/library")){      #Intel 
+  temp <- list.dirs("//Library/Frameworks/R.framework/Versions/4.0/Resources/library", 
                   full.names = F, recursive = F)
+  } else if (exists("~/Library/R/arm64/4.4/library/")){     # M1
+  temp <- list.dirs("~/Library/R/arm64/4.4/library/", 
+                  full.names = F, recursive = F)
+  } else {   # import list of packages from file 
+  temp <- read.table("list.of.R.packages.txt", header = F)
+  temp <- temp$V1
+  }
+  
+
 
 # install packages available from CRAN 
 new.packages <- temp[!(temp %in% installed.packages()[,"Package"])]
-if(length(new.packages)) install.packages(new.packages)
+if(length(new.packages)) install.packages(new.packages, repos="https//cran.us.r-project.org")
 
 
 # install packages from bioconductor 
