@@ -64,12 +64,7 @@ devtools::install_github('scfurl/m3addon')
 
 devtools::install_github('cole-trapnell-lab/PLNmodels', ref="torch_gpu") # needs R 4.1
 
-
-
-# get PAT authorization token from github to download private repositories
-
-devtools::install_github('cole-trapnell-lab/hooke', ref="develop", 
-                         auth_token = "")
+devtools::install_github('cole-trapnell-lab/hooke', ref="develop")
 
 
 
