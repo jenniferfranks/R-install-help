@@ -1,15 +1,21 @@
-# On SCRI systems
-# 
-# log into HPC (Sasquatch) with username
-# start tmux session
-# srun into your association
+#  Set up a new environment on Sasquatch to support R analysis (esp single cell)
+#  
+#
+####### Refer to quick start guide: http://gonzo/hpcGuide_dev/0_QuickStart.html  ########
 
-# install mamba (miniforge edition)
+# FIRST: 
+#   log into HPC (Sasquatch) with username 
+#   start a tmux session 
+#   srun into your association
+#   follow instructions for installing mamba (miniforge) here: http://gonzo/hpcGuide_dev/1-4_InstallingSoftware.html
 
-# mamba create --n franks_lab gdal geos gcc hdf5 
 
-# mamba install --n franks_lab R
+# SECOND: 
+#   on command line, run the following code, replacing "franks_lab" with whatever environment name you want
 
+mamba create --n franks_lab gdal geos gcc hdf5 
 
-# mamba activate franks_lab
+mamba install --n franks_lab R
+
+mamba activate franks_lab
 
