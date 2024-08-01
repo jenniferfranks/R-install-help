@@ -1,7 +1,8 @@
-#  Set up a new environment on Sasquatch to support R analysis (esp single cell)
-#  
+#  INSTRUCTIONS FOR:
+#  Setting up a new environment on Sasquatch to support R analysis (esp single cell) 
 #
-####### Refer to quick start guide: http://gonzo/hpcGuide_dev/0_QuickStart.html  ########
+#  May need to refer to quick start guide: http://gonzo/hpcGuide_dev/0_QuickStart.html  
+
 
 # FIRST: 
 #   log into HPC (Sasquatch) with username 
