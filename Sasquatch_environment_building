@@ -15,7 +15,7 @@
 #   on command line, run the following code, replacing "franks_lab" with whatever environment name you want
 
 
-mamba create --name franks_lab gdal geos gcc hdf5 
+mamba create --name franks_lab gdal geos gcc hdf5 cmake
 
 mamba install --name franks_lab -c conda-forge r-base=4.4.1
 mamba install --name franks_lab -c conda-forge pkg-config
