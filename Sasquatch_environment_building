@@ -14,9 +14,9 @@
 # SECOND: 
 #   on command line, run the following code, replacing "franks_lab" with whatever environment name you want
 
-mamba create --n franks_lab gdal geos gcc hdf5 
+mamba create --name franks_lab gdal geos gcc hdf5 
 
-mamba install --n franks_lab R
+mamba install --name franks_lab R
 
 mamba activate franks_lab
 
