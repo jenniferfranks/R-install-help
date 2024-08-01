@@ -7,8 +7,8 @@ Be sure to update filepaths as appropriate.
 ***YMMV!***
 
 General steps:
-1) Prepare the environment
-   - if using MacOS, see system_prep-Mac-Intel-personal
+1) Prepare the environment for installing R:
+   - if using MacOS, see system_prep-MacOS-Intel
    - for SCRI HPC, see Sasquatch_environment_building
 2) Prepare list of R packages to be installed
    - for new install, download list.of.R.packages.txt
