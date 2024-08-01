@@ -6,7 +6,7 @@
 
 # FIRST: 
 #   log into HPC (Sasquatch) with username 
-#   start a tmux session 
+#   (optionally start a tmux session, though I would recommend not b/c I had weird issues with R during it) 
 #   srun into your association
 #   follow instructions for installing mamba (miniforge) here: http://gonzo/hpcGuide_dev/1-4_InstallingSoftware.html
 
