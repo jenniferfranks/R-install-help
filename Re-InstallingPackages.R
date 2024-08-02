@@ -7,6 +7,8 @@
 #
 #       if Mac: Make sure to have xcode and homebrew installed (follow system prep info)
 #       if HPC (Sasquatch): Make sure to prepare environment using miniforge/mamba
+#
+#      Recommend to run line-by-line to troubleshoot your specific install!
 # -----------------------------------------------------------------------------
 chooseCRANmirror(ind=70)
 
