@@ -6,7 +6,7 @@
 #        Install packages on new R install
 #
 #       if Mac: Make sure to have xcode and homebrew installed (follow system prep info)
-#       if HPC (Sasquatch): Make sure to prepare environment using miniforge/mamba
+#       if HPC (Sasquatch): Make sure to prepare and activate environment using miniforge/mamba
 # -----------------------------------------------------------------------------
 
 install.packages("rgeos", repos="http://R-Forge.R-project.org", type="source")
