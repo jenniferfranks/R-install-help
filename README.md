@@ -1,12 +1,13 @@
 Instructions and code to help speed up new installs and updates of R versions (esp for single cell analysis)
-
 Developed using MacOS and Linux cluster (created 2023, last updated 8/2024)
 
-Be sure to update filepaths as appropriate. 
+***YMMV!***
+
 
 Sasquatch Users: please reference: http://gonzo/hpcGuide_dev/0_QuickStart.html
 
-***YMMV!***
+Be sure to update filepaths as appropriate. 
+
 
 General steps:
 1) Prepare the environment for installing R:
