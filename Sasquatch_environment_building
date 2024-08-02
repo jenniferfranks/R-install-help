@@ -26,7 +26,7 @@ mamba activate franks_lab
 
 
 ## Other notes :
-#   proj and proj4 seem to have an issue; may need to uninstall and re-install the right one
-#   to see what packages are installed use:
+#   proj and proj4 conflict; may need to uninstall and re-install the right one if you need. proj is default installed.
+#   to see what packages are currently installed use:
 #      mamba list --name franks_lab
 
