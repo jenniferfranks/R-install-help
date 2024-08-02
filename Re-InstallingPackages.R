@@ -16,7 +16,7 @@ require(rgeos)
 #install.packages("rgdal", repos="http://R-Forge.R-project.org", type="source") # deprecated as of May 2023?
 #require(rgdal)
 
-install.packages("remotes", repos="https//cran.us.r-project.org")
+install.packages("remotes")
 library(remotes)
 install_github("r-spatial/sf")
 
@@ -35,7 +35,7 @@ if(exists("//Library/Frameworks/R.framework/Versions/4.0/Resources/library")){  
 
 # install packages available from CRAN 
 new.packages <- temp[!(temp %in% installed.packages()[,"Package"])]
-if(length(new.packages)) install.packages(new.packages, repos="https//cran.us.r-project.org")
+if(length(new.packages)) install.packages(new.packages)
 
 
 # install packages from bioconductor 
