@@ -29,9 +29,5 @@
 
 
 
-# SCRI Instructions (July 2024):
-#
-#  Anaconda is not supported, so use Mamba (Miniforge) instead.
-#    https://github.com/conda-forge/miniforge?tab=readme-ov-file
-
+# SCRI Instructions (July 2024): None of this will work on SCRI-desktops due to certificate errors I can't figure out how to bypass. 
 
