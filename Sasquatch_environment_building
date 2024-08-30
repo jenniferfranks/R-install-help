@@ -20,6 +20,7 @@ mamba create --name franks_lab gdal geos gcc hdf5 cmake
 mamba install --name franks_lab -c conda-forge r-base=4.4.1
 mamba install --name franks_lab -c conda-forge pkg-config
 mamba install --name franks_lab -c conda-forge udunits2
+mamba install --name franks_lab -c bioconda scrublet
 
 mamba activate franks_lab
 
