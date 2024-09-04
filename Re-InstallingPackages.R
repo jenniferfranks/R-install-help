@@ -12,6 +12,7 @@
 # -----------------------------------------------------------------------------
 chooseCRANmirror(ind=70)
 
+install.packages("sp") 
 install.packages("rgeos", repos="http://R-Forge.R-project.org", type="source")
 require(rgeos)
 
