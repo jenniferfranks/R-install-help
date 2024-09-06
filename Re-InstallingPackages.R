@@ -20,6 +20,7 @@ chooseCRANmirror(ind=70)
 #install.packages("reticulate")
 #
 #Sys.setenv(RETICULATE_CONDA='/data/hps/assoc/private/franks_lab/jfra11/miniforge3/condabin/mamba') #change to your "whereis mamba" from terminal
+#Sys.setenv(LD_LIBRARY_PATH=“/data/hps/assoc/private/franks_lab/jfra11/miniforge3/lib”) #point to where lib folder is
 #
 #library("reticulate")
 #use_condaenv("franks_lab")   #change to your environment name
