@@ -21,6 +21,7 @@ mamba install --name jfenv -c conda-forge r-base=4.4.1
 mamba install --name jfenv -c conda-forge pkg-config
 mamba install --name jfenv -c conda-forge udunits2
 mamba install --name jfenv -c bioconda scrublet
+mamba install --name jfenv -c conda-forge r-magick
 
 mamba activate jfenv
 
