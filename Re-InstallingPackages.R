@@ -23,7 +23,7 @@ chooseCRANmirror(ind=70)
 #Sys.setenv(LD_LIBRARY_PATH=“/data/hps/assoc/private/franks_lab/user/jfra11/miniforge3/lib”) #point to where lib folder is
 #
 #library("reticulate")
-#use_condaenv("franks_lab")   #change to your environment name
+#use_condaenv("jfenv")   #change to your environment name
 #-----------
 
 # More environment building for spatial analysis --- 
