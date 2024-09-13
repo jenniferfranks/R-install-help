@@ -6,28 +6,28 @@
 
 # FIRST: 
 #   log into HPC (Sasquatch) with username 
-#   (optionally start a tmux session, though I would recommend not b/c I had weird issues with R during it) 
 #   srun into your association
-#   follow instructions for installing mamba (miniforge) here: http://gonzo/hpcGuide_dev/1-4_InstallingSoftware.html
+#   follow instructions for installing mamba (miniforge) here: http://gonzo/hpcGuide_dev/InstallingSoftware.html#mamba-conda
+#   *be sure to install in your user folder in your association!*
 
 
 # SECOND: 
-#   on command line, run the following code, replacing "franks_lab" with whatever environment name you want
+#   on command line, run the following code, replacing "jfenv" with whatever environment name you want
 
 
-mamba create --name franks_lab gdal geos gcc hdf5 cmake
+mamba create --name jfenv gdal geos gcc hdf5 cmake
 
-mamba install --name franks_lab -c conda-forge r-base=4.4.1
-mamba install --name franks_lab -c conda-forge pkg-config
-mamba install --name franks_lab -c conda-forge udunits2
-mamba install --name franks_lab -c bioconda scrublet
+mamba install --name jfenv -c conda-forge r-base=4.4.1
+mamba install --name jfenv -c conda-forge pkg-config
+mamba install --name jfenv -c conda-forge udunits2
+mamba install --name jfenv -c bioconda scrublet
 
-mamba activate franks_lab
+mamba activate jfenv
 
 
 
 ## Other notes :
 #   proj and proj4 conflict; may need to uninstall and re-install the right one if you need. proj is default installed.
 #   to see what packages are currently installed use:
-#      mamba list --name franks_lab
+#      mamba list --name jfenv
 
