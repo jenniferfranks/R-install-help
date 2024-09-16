@@ -18,6 +18,7 @@
 mamba create --name jfenv gdal geos gcc hdf5 cmake
 
 mamba install --name jfenv -c conda-forge r-base=4.4.1
+mamba install --name jfenv -c conda-forge glpk
 mamba install --name jfenv -c conda-forge pkg-config
 mamba install --name jfenv -c conda-forge udunits2
 mamba install --name jfenv -c bioconda scrublet
