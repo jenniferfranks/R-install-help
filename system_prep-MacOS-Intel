@@ -29,5 +29,5 @@
 
 
 
-# SCRI Instructions (July 2024): None of this will work on SCRI-desktops due to certificate errors I can't figure out how to bypass. 
+# SCRI Instructions (Sept 2024): Requires admin access on desktop. Use virtual_env instead of conda (security certificate issues).  
 
