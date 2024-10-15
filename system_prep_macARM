@@ -1,0 +1,37 @@
+#  Mac ARM Install - NOT VERIFIED as of OCT 15 2024
+#
+#  Install xcode tools using App Store
+#  Install homebrew in terminal (instructions here: https://brew.sh/ )
+#
+#   Within terminal:
+#     brew install gcc
+#     brew link --overwrite open-mpi
+#     brew install geos gdal 
+#     brew install hdf5
+
+#  Follow Ryan Friedman's install of homebrew/r here: https://github.com/cole-trapnell-lab/homebrew-r-srf
+
+#  Install a recent version of R 
+#  Install recent version of R studio
+#  Install fortran (https://cran.r-project.org/bin/macosx/tools/)
+#
+#
+#
+
+
+
+
+#  Install Anaconda (https://www.anaconda.com/download), follow on-screen directions
+
+#  Create a virtual environment to run scrublet by running the following commands 
+#  in R:
+#     library(reticulate)
+#     conda_create("myenv")
+#     conda_install(envname="myenv", packages = c("numpy","pip","git"))
+#     conda_install(envname="myenv", packages = c("scrublet"), pip=T)
+#     conda_python(envname =  "myenv")
+
+
+
+
+# SCRI Instructions (Sept 2024): Requires admin access on desktop. Use virtual_env instead of conda (security certificate issues).  
