@@ -1,8 +1,10 @@
-#  INSTRUCTIONS FOR:
-#  Setting up a new environment on Sasquatch to support R analysis (esp single cell) 
+
+##### NOT RECOMMENDED ########
+
+#  Instructions for a mamba environment on Sasquatch to support R analysis (esp single cell). 
+#   THIS WILL NOT WORK IN POSIT. USE PRE-EXISTING APPTAINER: /data/hps/assoc/private/posit_workbench/container/posit-session-franks_lab-rocky9-20241017.sif
 #
 #  May need to refer to quick start guide: http://gonzo/hpcGuide_dev/0_QuickStart.html  
-
 
 # FIRST: 
 #   log into HPC (Sasquatch) with username 
@@ -25,11 +27,3 @@ mamba install --name jfenv -c bioconda scrublet
 mamba install --name jfenv -c conda-forge r-magick
 
 mamba activate jfenv
-
-
-
-## Other notes :
-#   proj and proj4 conflict; may need to uninstall and re-install the right one if you need. proj is default installed.
-#   to see what packages are currently installed use:
-#      mamba list --name jfenv
-
