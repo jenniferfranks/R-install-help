@@ -12,7 +12,7 @@ Be sure to update filepaths as appropriate.
 General steps:
 1) Prepare the environment for installing R:
    - if using MacOS, see system_prep-MacOS-Intel
-   - for SCRI HPC, see Sasquatch_environment_building
+   - for SCRI HPC, learn how to use apptainers, see ref guide. franks_lab apptainer exists for public use
 2) Prepare list of R packages to be installed
    - for new install, download list.of.R.packages.txt
    - for R update on same machine, locate folder with list of packages
