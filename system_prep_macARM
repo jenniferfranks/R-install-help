@@ -8,8 +8,10 @@
 #     brew link --overwrite open-mpi
 #     brew install geos gdal 
 #     brew install hdf5
+#     brew install -s cole-trapnell-lab/trapnell/r
 
-#  Follow Ryan Friedman's install of homebrew/r here: https://github.com/cole-trapnell-lab/homebrew-r-srf
+
+
 
 #  Install a recent version of R 
 #  Install recent version of R studio
